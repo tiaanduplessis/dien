@@ -4,7 +4,7 @@
 [![package downloads](https://img.shields.io/npm/dm/dien.svg?style=flat-square)](https://npmjs.org/package/dien)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![package license](https://img.shields.io/npm/l/dien.svg?style=flat-square)](https://npmjs.org/package/dien)
-[![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/dien.svg)](https://greenkeeper.io/)
 
 > Simple static file server
 
