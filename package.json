@@ -20,7 +20,7 @@
     "cli.js"
   ],
   "dependencies": {
-    "finalhandler": "^1.1.1",
+    "finalhandler": "^1.1.2",
     "get-them-args": "^1.3.2",
     "serve-static": "^1.13.2"
   },
