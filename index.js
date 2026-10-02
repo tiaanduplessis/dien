@@ -5,10 +5,10 @@ const finalhandler = require('finalhandler')
 const serveStatic = require('serve-static')
 
 function dien (dir = '.', port = 8888) {
-  const serve = serveStatic(path.join(process.cwd(), dir), { 'index': ['index.html', 'index.htm'] })
+  const serve = serveStatic(path.join(process.cwd(), dir), { index: ['index.html', 'index.htm'], dotfiles: 'ignore' })
 
   const server = http.createServer(function onRequest (req, res) {
-    serve(req, res, finalhandler(req, res))
+    serve(req, res, finalhandler(req, res, { env: 'production' }))
   })
 
   server.listen(port, () => {
